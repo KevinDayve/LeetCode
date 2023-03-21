@@ -1,4 +1,4 @@
-#A simple function based on recursion algo to print digits going from n to 1.
+#A simple function based on recursion algo to print digits going from n to 1 and 1 to n.
 
 def nto1(n):
   if n == 0:
