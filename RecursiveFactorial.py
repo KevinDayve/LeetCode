@@ -1,4 +1,10 @@
-# A very simple function which prints factorial based on principles of recursion
+# A very simple function which prints factorial and a function to calculate the sum of digits based on principles of recursion
+
+
+def sumof(n):
+  if n== 0:
+    return 0
+  return (n%10) + sumof(n//10)
 
 def factorial(n):
   if n == 1:
@@ -7,4 +13,6 @@ def factorial(n):
 
 #Test case.
 
-print(factorial(10))
+print(factorial(5), sumof(1342))
+
+#Should print 120 and 10, respectively.
